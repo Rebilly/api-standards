@@ -1,7 +1,5 @@
 {
   "type": "string",
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "title": "The payment gateway name",
   "description": "The payment gateway name",
   "enum": [
     "A1Gateway",

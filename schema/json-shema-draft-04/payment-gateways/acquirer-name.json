@@ -1,7 +1,5 @@
 {
   "type": "string",
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "title": "The acquirer name",
   "description": "The acquirer name",
   "enum": [
     "Alipay",

@@ -1,13 +1,13 @@
 {
   "type": "object",
-  "description": "The Problem Details JSON Object",
+  "description": "The Problem Details JSON Object [[RFC7807](https://tools.ietf.org/html/rfc7807)].",
   "minProperties": 1,
   "additionalProperties": true,
   "required": [],
   "properties": {
     "type": {
       "type": "string",
-      "description": "A URI reference that identifies the problem type. It should provide human-readable documentation for the problem type. When this member is not present, its value is assumed to be \"about:blank\".",
+      "description": "A URI reference [[RFC3986](https://tools.ietf.org/html/rfc3986)] that identifies the problem type. It should provide human-readable documentation for the problem type. When this member is not present, its value is assumed to be \"about:blank\".",
       "format": "uri"
     },
     "status": {
@@ -26,7 +26,7 @@
     },
     "instance": {
       "type": "string",
-      "description": "A URI reference that identifies the specific occurrence of the problem. It may or may not yield further information if dereferenced.",
+      "description": "A URI reference [[RFC3986](https://tools.ietf.org/html/rfc3986)] that identifies the specific occurrence of the problem. It may or may not yield further information if dereferenced.",
       "format": "uri"
     }
   }

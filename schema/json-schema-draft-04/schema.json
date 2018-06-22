@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "blank-problem": {
+      "$ref": "problem-details/blank-problem.json"
+    },
+    "detailed-problem": {
+      "$ref": "problem-details/detailed-problem.json"
+    },
+    "documented-problem": {
+      "$ref": "problem-details/documented-problem.json"
+    },
+    "extended-problem": {
+      "$ref": "problem-details/extended-problem.json"
+    },
+    "tracked-problem": {
+      "$ref": "problem-details/tracked-problem.json"
+    }
+  }
+}

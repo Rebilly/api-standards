@@ -1,11 +1,9 @@
 {
-  "type": "object",
   "allOf": [
     {
       "$ref": "blank-problem.json"
     },
     {
-      "required": [],
       "properties": {
         "detail": {
           "type": "string",

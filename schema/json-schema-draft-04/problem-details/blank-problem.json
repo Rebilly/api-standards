@@ -3,7 +3,6 @@
   "description": "The Problem Details JSON Object [[RFC7807](https://tools.ietf.org/html/rfc7807)].",
   "minProperties": 1,
   "additionalProperties": true,
-  "required": [],
   "properties": {
     "status": {
       "type": "integer",

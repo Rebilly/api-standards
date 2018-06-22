@@ -2,7 +2,7 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "#/blank-problem.json"
+      "$ref": "blank-problem.json"
     },
     {
       "required": [],

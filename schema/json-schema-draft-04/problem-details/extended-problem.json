@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "#/documented-problem.json"
+    },
+    {
+      "$ref": "#/detailed-problem.json"
+    },
+    {
+      "$ref": "#/tracked-problem.json"
+    }
+  ]
+}

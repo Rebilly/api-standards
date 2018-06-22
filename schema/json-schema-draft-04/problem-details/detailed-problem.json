@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "#/blank-problem.json"
+    },
+    {
+      "required": [],
+      "properties": {
+        "detail": {
+          "type": "string",
+          "description": "A human-readable explanation specific to this occurrence of the problem."
+        }
+      }
+    }
+  ]
+}

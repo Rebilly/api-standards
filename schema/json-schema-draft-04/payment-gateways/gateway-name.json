@@ -69,6 +69,7 @@
     "Skrill",
     "SmartInvoice",
     "SMSVoucher",
+    "SparkPay",
     "StaticGateway",
     "Stripe",
     "UPayCard",

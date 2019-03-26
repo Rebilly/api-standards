@@ -1,0 +1,11 @@
+{
+  "type": "string",
+  "enum": [
+    "seconds",
+    "minutes",
+    "hours",
+    "days",
+    "months",
+    "years"
+  ]
+}

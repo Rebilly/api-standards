@@ -94,6 +94,7 @@
     "Skrill",
     "SmartInvoice",
     "SMSVoucher",
+    "Sofort",
     "SparkPay",
     "StaticGateway",
     "Stripe",
